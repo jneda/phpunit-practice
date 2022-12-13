@@ -20,5 +20,6 @@ class Product
     if (self::FOOD_PRODUCT === $this->type) {
       return $this->price * 0.055;
     }
+    return $this->price * 0.196;
   }
 }
